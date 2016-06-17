@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3D4FD021D14BD8F00744D6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D4FD011D14BD8F00744D6A /* AppDelegate.swift */; };
+		A3D4FD041D14BD8F00744D6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D4FD031D14BD8F00744D6A /* ViewController.swift */; };
+		A3D4FD071D14BD8F00744D6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3D4FD051D14BD8F00744D6A /* Main.storyboard */; };
+		A3D4FD091D14BD8F00744D6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3D4FD081D14BD8F00744D6A /* Assets.xcassets */; };
+		A3D4FD0C1D14BD8F00744D6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3D4FD0A1D14BD8F00744D6A /* LaunchScreen.storyboard */; };
+		A3D4FD171D14BD8F00744D6A /* NoTweet_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D4FD161D14BD8F00744D6A /* NoTweet_SwiftTests.swift */; };
+		A3D4FD221D14BD8F00744D6A /* NoTweet_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D4FD211D14BD8F00744D6A /* NoTweet_SwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3D4FD131D14BD8F00744D6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3D4FCF61D14BD8F00744D6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3D4FCFD1D14BD8F00744D6A;
+			remoteInfo = "NoTweet-Swift";
+		};
+		A3D4FD1E1D14BD8F00744D6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3D4FCF61D14BD8F00744D6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3D4FCFD1D14BD8F00744D6A;
+			remoteInfo = "NoTweet-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3D4FCFE1D14BD8F00744D6A /* NoTweet-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NoTweet-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D4FD011D14BD8F00744D6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3D4FD031D14BD8F00744D6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3D4FD061D14BD8F00744D6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3D4FD081D14BD8F00744D6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3D4FD0B1D14BD8F00744D6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3D4FD0D1D14BD8F00744D6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3D4FD121D14BD8F00744D6A /* NoTweet-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NoTweet-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D4FD161D14BD8F00744D6A /* NoTweet_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoTweet_SwiftTests.swift; sourceTree = "<group>"; };
+		A3D4FD181D14BD8F00744D6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3D4FD1D1D14BD8F00744D6A /* NoTweet-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NoTweet-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D4FD211D14BD8F00744D6A /* NoTweet_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoTweet_SwiftUITests.swift; sourceTree = "<group>"; };
+		A3D4FD231D14BD8F00744D6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3D4FCFB1D14BD8F00744D6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D4FD0F1D14BD8F00744D6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D4FD1A1D14BD8F00744D6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3D4FCF51D14BD8F00744D6A = {
+			isa = PBXGroup;
+			children = (
+				A3D4FD001D14BD8F00744D6A /* NoTweet-Swift */,
+				A3D4FD151D14BD8F00744D6A /* NoTweet-SwiftTests */,
+				A3D4FD201D14BD8F00744D6A /* NoTweet-SwiftUITests */,
+				A3D4FCFF1D14BD8F00744D6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3D4FCFF1D14BD8F00744D6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3D4FCFE1D14BD8F00744D6A /* NoTweet-Swift.app */,
+				A3D4FD121D14BD8F00744D6A /* NoTweet-SwiftTests.xctest */,
+				A3D4FD1D1D14BD8F00744D6A /* NoTweet-SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3D4FD001D14BD8F00744D6A /* NoTweet-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				A3D4FD011D14BD8F00744D6A /* AppDelegate.swift */,
+				A3D4FD031D14BD8F00744D6A /* ViewController.swift */,
+				A3D4FD051D14BD8F00744D6A /* Main.storyboard */,
+				A3D4FD081D14BD8F00744D6A /* Assets.xcassets */,
+				A3D4FD0A1D14BD8F00744D6A /* LaunchScreen.storyboard */,
+				A3D4FD0D1D14BD8F00744D6A /* Info.plist */,
+			);
+			path = "NoTweet-Swift";
+			sourceTree = "<group>";
+		};
+		A3D4FD151D14BD8F00744D6A /* NoTweet-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3D4FD161D14BD8F00744D6A /* NoTweet_SwiftTests.swift */,
+				A3D4FD181D14BD8F00744D6A /* Info.plist */,
+			);
+			path = "NoTweet-SwiftTests";
+			sourceTree = "<group>";
+		};
+		A3D4FD201D14BD8F00744D6A /* NoTweet-SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3D4FD211D14BD8F00744D6A /* NoTweet_SwiftUITests.swift */,
+				A3D4FD231D14BD8F00744D6A /* Info.plist */,
+			);
+			path = "NoTweet-SwiftUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3D4FCFD1D14BD8F00744D6A /* NoTweet-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3D4FD261D14BD8F00744D6A /* Build configuration list for PBXNativeTarget "NoTweet-Swift" */;
+			buildPhases = (
+				A3D4FCFA1D14BD8F00744D6A /* Sources */,
+				A3D4FCFB1D14BD8F00744D6A /* Frameworks */,
+				A3D4FCFC1D14BD8F00744D6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NoTweet-Swift";
+			productName = "NoTweet-Swift";
+			productReference = A3D4FCFE1D14BD8F00744D6A /* NoTweet-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3D4FD111D14BD8F00744D6A /* NoTweet-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3D4FD291D14BD8F00744D6A /* Build configuration list for PBXNativeTarget "NoTweet-SwiftTests" */;
+			buildPhases = (
+				A3D4FD0E1D14BD8F00744D6A /* Sources */,
+				A3D4FD0F1D14BD8F00744D6A /* Frameworks */,
+				A3D4FD101D14BD8F00744D6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3D4FD141D14BD8F00744D6A /* PBXTargetDependency */,
+			);
+			name = "NoTweet-SwiftTests";
+			productName = "NoTweet-SwiftTests";
+			productReference = A3D4FD121D14BD8F00744D6A /* NoTweet-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3D4FD1C1D14BD8F00744D6A /* NoTweet-SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3D4FD2C1D14BD8F00744D6A /* Build configuration list for PBXNativeTarget "NoTweet-SwiftUITests" */;
+			buildPhases = (
+				A3D4FD191D14BD8F00744D6A /* Sources */,
+				A3D4FD1A1D14BD8F00744D6A /* Frameworks */,
+				A3D4FD1B1D14BD8F00744D6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3D4FD1F1D14BD8F00744D6A /* PBXTargetDependency */,
+			);
+			name = "NoTweet-SwiftUITests";
+			productName = "NoTweet-SwiftUITests";
+			productReference = A3D4FD1D1D14BD8F00744D6A /* NoTweet-SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3D4FCF61D14BD8F00744D6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Wayne Dixon";
+				TargetAttributes = {
+					A3D4FCFD1D14BD8F00744D6A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = SKVF6KXW39;
+						DevelopmentTeamName = "Wayne Dixon";
+						ProvisioningStyle = Automatic;
+					};
+					A3D4FD111D14BD8F00744D6A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = SKVF6KXW39;
+						DevelopmentTeamName = "Wayne Dixon";
+						ProvisioningStyle = Automatic;
+						TestTargetID = A3D4FCFD1D14BD8F00744D6A;
+					};
+					A3D4FD1C1D14BD8F00744D6A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = SKVF6KXW39;
+						DevelopmentTeamName = "Wayne Dixon";
+						ProvisioningStyle = Automatic;
+						TestTargetID = A3D4FCFD1D14BD8F00744D6A;
+					};
+				};
+			};
+			buildConfigurationList = A3D4FCF91D14BD8F00744D6A /* Build configuration list for PBXProject "NoTweet-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3D4FCF51D14BD8F00744D6A;
+			productRefGroup = A3D4FCFF1D14BD8F00744D6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3D4FCFD1D14BD8F00744D6A /* NoTweet-Swift */,
+				A3D4FD111D14BD8F00744D6A /* NoTweet-SwiftTests */,
+				A3D4FD1C1D14BD8F00744D6A /* NoTweet-SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3D4FCFC1D14BD8F00744D6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D4FD0C1D14BD8F00744D6A /* LaunchScreen.storyboard in Resources */,
+				A3D4FD091D14BD8F00744D6A /* Assets.xcassets in Resources */,
+				A3D4FD071D14BD8F00744D6A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D4FD101D14BD8F00744D6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D4FD1B1D14BD8F00744D6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3D4FCFA1D14BD8F00744D6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D4FD041D14BD8F00744D6A /* ViewController.swift in Sources */,
+				A3D4FD021D14BD8F00744D6A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D4FD0E1D14BD8F00744D6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D4FD171D14BD8F00744D6A /* NoTweet_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D4FD191D14BD8F00744D6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D4FD221D14BD8F00744D6A /* NoTweet_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3D4FD141D14BD8F00744D6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3D4FCFD1D14BD8F00744D6A /* NoTweet-Swift */;
+			targetProxy = A3D4FD131D14BD8F00744D6A /* PBXContainerItemProxy */;
+		};
+		A3D4FD1F1D14BD8F00744D6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3D4FCFD1D14BD8F00744D6A /* NoTweet-Swift */;
+			targetProxy = A3D4FD1E1D14BD8F00744D6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3D4FD051D14BD8F00744D6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3D4FD061D14BD8F00744D6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3D4FD0A1D14BD8F00744D6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3D4FD0B1D14BD8F00744D6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3D4FD241D14BD8F00744D6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3D4FD251D14BD8F00744D6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3D4FD271D14BD8F00744D6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NoTweet-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waynedixon.NoTweet-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A3D4FD281D14BD8F00744D6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NoTweet-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waynedixon.NoTweet-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A3D4FD2A1D14BD8F00744D6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "NoTweet-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waynedixon.NoTweet-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoTweet-Swift.app/NoTweet-Swift";
+			};
+			name = Debug;
+		};
+		A3D4FD2B1D14BD8F00744D6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "NoTweet-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waynedixon.NoTweet-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoTweet-Swift.app/NoTweet-Swift";
+			};
+			name = Release;
+		};
+		A3D4FD2D1D14BD8F00744D6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "NoTweet-SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waynedixon.NoTweet-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "NoTweet-Swift";
+			};
+			name = Debug;
+		};
+		A3D4FD2E1D14BD8F00744D6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "NoTweet-SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waynedixon.NoTweet-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "NoTweet-Swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3D4FCF91D14BD8F00744D6A /* Build configuration list for PBXProject "NoTweet-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3D4FD241D14BD8F00744D6A /* Debug */,
+				A3D4FD251D14BD8F00744D6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3D4FD261D14BD8F00744D6A /* Build configuration list for PBXNativeTarget "NoTweet-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3D4FD271D14BD8F00744D6A /* Debug */,
+				A3D4FD281D14BD8F00744D6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A3D4FD291D14BD8F00744D6A /* Build configuration list for PBXNativeTarget "NoTweet-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3D4FD2A1D14BD8F00744D6A /* Debug */,
+				A3D4FD2B1D14BD8F00744D6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A3D4FD2C1D14BD8F00744D6A /* Build configuration list for PBXNativeTarget "NoTweet-SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3D4FD2D1D14BD8F00744D6A /* Debug */,
+				A3D4FD2E1D14BD8F00744D6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3D4FCF61D14BD8F00744D6A /* Project object */;
+}
