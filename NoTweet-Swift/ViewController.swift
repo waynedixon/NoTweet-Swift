@@ -197,34 +197,5 @@ class ViewController: UIViewController, UITextViewDelegate {
         return charCount
     }
     
-    func countURLs(array listOfWords: Array<String>!) -> Int
-    {
-        var urlCount: Int = 0
-        
-        for word in listOfWords
-        {
-            if (word.lowercased().range(of: "http") != nil)
-            {
-                urlCount += 1
-            }
-        }
-        
-        return urlCount
-    }
-    
-    func countUsernames(array listOfWords: Array<String>!) -> Int
-    {
-        var usernameCount: Int = 0
-        
-        for word in listOfWords
-        {
-            if (word.lowercased().range(of: "@") != nil)
-            {
-                usernameCount += 1
-            }
-        }
-        
-        return usernameCount
-    }
 }
 
