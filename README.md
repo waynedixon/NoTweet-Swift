@@ -1,5 +1,5 @@
 # NoTweet-Swift
-This is a twitter character counting app written in Swift
+This is a twitter character counting app written in Swift 3, and set for iOS 10
 
 ##Description##
 
