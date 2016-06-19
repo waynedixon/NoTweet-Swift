@@ -503,6 +503,7 @@
 				A3D4FD281D14BD8F00744D6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3D4FD291D14BD8F00744D6A /* Build configuration list for PBXNativeTarget "NoTweet-SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +512,7 @@
 				A3D4FD2B1D14BD8F00744D6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3D4FD2C1D14BD8F00744D6A /* Build configuration list for PBXNativeTarget "NoTweet-SwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +521,7 @@
 				A3D4FD2E1D14BD8F00744D6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
