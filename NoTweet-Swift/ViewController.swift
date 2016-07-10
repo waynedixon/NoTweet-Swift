@@ -26,8 +26,6 @@ class ViewController: UIViewController, UITextViewDelegate {
         tweetText.spellCheckingType = .no
         characterCount.text = "0"
         
-        
-        
         self.registerNotifications()
         
         
@@ -40,7 +38,7 @@ class ViewController: UIViewController, UITextViewDelegate {
 
     internal func registerNotifications()
     {
-        let nc = NotificationCenter.default()
+        let nc = NotificationCenter.default
         nc.addObserver(self, selector: #selector(keyboardDidShow), name: NSNotification.Name.UIKeyboardDidShow, object: nil)
         nc.addObserver(self, selector: #selector(keyboardDidHide), name: NSNotification.Name.UIKeyboardDidHide, object: nil)
         nc.addObserver(self, selector: #selector(textViewTweet), name: NSNotification.Name.UITextViewTextDidChange, object:tweetText)
@@ -82,7 +80,6 @@ class ViewController: UIViewController, UITextViewDelegate {
        // let keyboardViewEndFrame = view.convert(keyboardScreenEndFrame, from: view.window)
         
         tweetText.contentInset = UIEdgeInsetsZero
-        
         tweetText.scrollIndicatorInsets = tweetText.contentInset
         
         let selectedRange = tweetText.selectedRange
@@ -193,6 +190,15 @@ class ViewController: UIViewController, UITextViewDelegate {
         if(charCount < 0)
         {
             charCount = 0
+        }
+        
+        if(charCount > 140)
+        {
+            characterCount.textColor = UIColor.red()
+        }
+        else if(charCount <= 140)
+        {
+            characterCount.textColor = UIColor.black()
         }
         return charCount
     }
