@@ -59,7 +59,7 @@ class ViewController: UIViewController, UITextViewDelegate {
         
         let userInfo = notif.userInfo!
         
-        let keyboardScreenEndFrame = (userInfo[UIKeyboardFrameEndUserInfoKey] as! NSValue).cgRectValue()
+        let keyboardScreenEndFrame = (userInfo[UIKeyboardFrameEndUserInfoKey] as! NSValue).cgRectValue
         let keyboardViewEndFrame = view.convert(keyboardScreenEndFrame, from: view.window)
         
         tweetText.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: keyboardViewEndFrame.height, right: 0)
@@ -79,7 +79,7 @@ class ViewController: UIViewController, UITextViewDelegate {
        // let keyboardScreenEndFrame = (userInfo[UIKeyboardFrameEndUserInfoKey] as! NSValue).cgRectValue()
        // let keyboardViewEndFrame = view.convert(keyboardScreenEndFrame, from: view.window)
         
-        tweetText.contentInset = UIEdgeInsetsZero
+        tweetText.contentInset = UIEdgeInsets.zero
         tweetText.scrollIndicatorInsets = tweetText.contentInset
         
         let selectedRange = tweetText.selectedRange
@@ -194,11 +194,11 @@ class ViewController: UIViewController, UITextViewDelegate {
         
         if(charCount > 140)
         {
-            characterCount.textColor = UIColor.red()
+            characterCount.textColor = UIColor.red
         }
         else if(charCount <= 140)
         {
-            characterCount.textColor = UIColor.black()
+            characterCount.textColor = UIColor.black
         }
         return charCount
     }
